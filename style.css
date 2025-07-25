@@ -83,3 +83,52 @@
             width: 20px;
             height: 20px;
         }
+
+
+
+        /* Banner Section */
+        .banner {
+      background: rgba(245, 248, 255, 1);
+            padding: 100px 0;
+        }
+
+
+        .banner-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+
+        .banner-content h1 {
+            font-size: 65px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+
+        .banner-content h1 .highlight {
+           
+            color: rgba(233, 90, 8, 1);
+        }
+
+
+        .banner-content p {
+            font-size: 16px;
+            color: gray;
+            line-height: 1.8;
+            max-width: 400px;
+        }
+
+
+        .banner-image {
+            text-align: center;
+        }
+
+
+        .banner-image img {
+            max-width: 100%;
+            height: auto;
+     
+        }
